@@ -8,7 +8,6 @@ body{
 }
 nav #menubtn {
     display: none;
-    /* filter:invert(100%); */
     width: 20px;
 }
 .contactcont1{
@@ -16,7 +15,7 @@ nav #menubtn {
     height: 100vh;
     background-color:  #FEFFF6;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .contactcont1box{
@@ -49,6 +48,8 @@ nav #menubtn {
     width: 90%;
     font-size:0.6rem;
     margin-top:8px;
+}
+.contactcont1boxform input:active{
 }
 .contactcont1boxcontent h1{
     color:white;

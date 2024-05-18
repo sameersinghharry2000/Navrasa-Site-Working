@@ -129,7 +129,7 @@ nav .navmenu ul li a {
     color: black;
 }
 
-.navmenu ul li:hover {
+.navmenu ul li a:hover {
     color: #25D366
 }
 
@@ -143,6 +143,7 @@ nav .navmenu ul li a {
     font-size: 11px;
     transition: 0.5s;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(139, 137, 137, 0.2), 0 6px 20px 0 rgba(158, 119, 119, 0.274);
 }
 
 .navmenu button:hover {
