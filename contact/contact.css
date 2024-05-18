@@ -1,0 +1,71 @@
+body{
+    background-color: #FEFFF6;
+}
+.nav .logo {
+    width: 100px;
+    filter: invert(0%);
+    transition: 0.5s
+}
+nav #menubtn {
+    display: none;
+    filter:invert(200%);
+    width: 20px;
+}
+.contactcont1{
+    width: 100%;
+    height: 100vh;
+    background-color:  #FEFFF6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactcont1box{
+    width:300px;
+    height: auto;
+}
+.contactcont1boxcontent{
+    height:400px;
+    width: 100%;
+    background-color: #800000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactcont1boxform{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contactcont1boxform input , textarea{
+    width: 90%;
+}
+.contactcont1boxform label{
+    color:white;
+    width: 90%;
+    font-size:0.6rem;
+    margin-top:8px;
+}
+.contactcont1boxcontent h1{
+    color:white;
+    font-weight: 200;
+    width: 90%;
+    font-size: 1.4rem;;
+}
+.contactcont1boxcontent  button{
+    width: 90%;
+    height: 30px;
+    border:none;
+    background-color: #800000;
+    border-radius: 3px;
+    color:white;
+    transition:0.5s;
+    font-size:0.6rem;
+    margin-top:15px;
+}
+.contactcont1boxcontent  button:hover{
+    background-color: #25D366;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../responsive.css">
+</head>
+
+<body>
+
+
+    <!-- Slidebar -->
+
+    <div class="slidebar">
+        <div class="slidebarmain">
+            <img src="../img/logo.png" width="120px" alt="logo">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#"><button>Contact</button></a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="bottomwtps">
+        <a href="#"><img src="../img/whatsapp.png" alt=""></a>
+    </div>
+
+    <!-- Navbar -->
+
+    <nav class="nav">
+        <img class="logo" src="../img/logo.png" alt="logo">
+        <div class="navmenu">
+            <ul class="navUl">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <button>Contact</button>
+            </ul>
+        </div>
+        <img id="menubtn" src="../img/menu.png" alt="">
+    </nav>
+
+    <div class="contactcont1">
+        <div class="contactcont1box">
+            <div class="contactcont1boxmap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112008.57906456744!2d77.1296495891264!3d28.681625856048772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1716032193209!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="contactcont1box">
+            <div class="contactcont1boxcontent">
+                <h1>Contact Form</h1>
+                <div class="contactcont1boxform">
+                    <label for="name">Your Name *</label>
+                    <input type="text">
+                    <label for="email">Email Address *</label>
+                    <input type="text">
+                    <label for="query">Your Query *</label>
+                    <textarea name="query" id="" rows="4"></textarea>
+                    <label for="number">Contact Number</label>
+                    <input type="number">
+                </div>
+                <button>Send Message</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Footer  -->
+
+    <footer>
+        <div class="footerbox">
+            <img src="../img/logo.png" width="200px" alt="">
+        </div>
+        <div class="footerbox">
+            <h3>IMPORTANT LINKS</h3>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <p>Website is Designed & Developed By <a href="#">Sameer Singh</a></p>
+        </div>
+        <div class="footerbox">
+            <h3>ADDRESS</h3>
+            <p>Near Hero showroom, Hussain Ganj, Lucknow Roadm Sitapur</p>
+            <div class="footerphn"><img src="../img/call.png" width="20px" alt="">+91 9582695471</div>
+            <div class="footeremail"><img src="../img/mail.png" width="20px;" alt="">robinkumar@gmail.com</div>
+            <div class="footersocial">
+                <a href="#"><img src="../img/facebook.png" alt="fb"></a>
+                <a href="#"><img src="../img/instagram.png" alt="insta"></a>
+                <a href="#"><img src="../img/linkedin.png" alt="linkedin"></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY >= 50) {
+                navimg.style.filter = "invert(0%)"
+            }
+            else {
+                navimg.style.filter = "invert(0%)"
+            }
+        })
+
+    </script>
+</body>
+
+</html>
