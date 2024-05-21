@@ -9,6 +9,13 @@
     }
     .section1box{
         margin:80px;
+        margin-bottom:40px;
+    }
+    .section1box:nth-child(2){
+        margin-top:10px;
+    }
+    .section1box:nth-child(1){
+        margin-top:100px;
     }
     .cont2section2 p{
         font-size:2rem;
@@ -82,6 +89,13 @@
     }
     .cont3sec2 h1{
         font-size: 1.2rem;
+    }
+    .section1box{
+        margin:80px;
+        margin-bottom:30px;
+    }
+    .section1box:nth-child(2){
+        margin-top:-15px;
     }
 }
 @media screen and (max-width:500px) {
@@ -190,5 +204,8 @@
     }
     .cont3sec1 h1{
         font-size:1rem;
+    }
+    .section1box:nth-child(2){
+        margin-top:-20px;
     }
 }
