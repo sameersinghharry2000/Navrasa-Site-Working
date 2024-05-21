@@ -67,8 +67,73 @@
     font-size:0.9rem;
     border-radius: 5px;
     margin-top:5px;
+    z-index: 999;
+    cursor: pointer;
 }
 
+/* Services Container 2 */
+
+.servcont2{
+    width:100%;
+    height:auto;
+}
+.servcont2main{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servcont2main h1{
+    color:#800000;
+    width: 100%;
+    text-align: center;
+    margin-top:60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:2.3rem;
+}
+.servcont2main p{
+    font-size:0.6rem;
+    margin:10px;
+    width: 500px;
+    text-align: center;
+}
+.servcont2mainbox{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:40px;;
+    flex-wrap: wrap;
+}
+.servcont2mainbox .servcont2img{
+    width:300px;
+    margin:20px;
+    height: auto;
+}
+.servcont2img:nth-child(even){
+    margin-top:50px;
+}
+.servcont2mainbox .servcont2img h3{
+    margin:10px;
+    color:#800000;
+    font-weight: 400;
+}
+    
+.servcont2mainbox .servcont2img img{
+    width: 100%;
+    height: 200px;
+}
+#servcont2main1{
+    
+}
+#servcont2main2{
+    display: none;
+}
+#servcont2main3{
+    display: none;
+}
 
 
 /* Services Container 3 */
@@ -101,7 +166,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    transition:0.5s;
+    transition:2s;
 }
 .servcont3box1{
     width: 100%;
@@ -119,8 +184,9 @@
 .servcont3box2{
     width: 90%;
     display:none;
-    transition:0.5s;
+    transition:1s;
 }
+
 .servcont3box:hover .servcont3box2{
     display: block;
 }
@@ -156,7 +222,7 @@
     padding:10px;
     border-radius: 5px;
     cursor: pointer;
-    transition:2s;
+    transition: 1s;
 }
 .servcont4box:hover{
     height: auto;
@@ -169,4 +235,83 @@
 .servcont4 p{
     font-size: 0.6rem;
     margin:20px 0px 0px 0px;
+}
+
+
+@media screen and (max-width:800px) {
+    .servcont1{
+        flex-direction: column;
+        height: auto;
+    }
+    .servcont1box{
+        width:90%;
+        margin:50px 0;
+        text-align: center;
+    }
+    .servcont1box img{
+        width:200px;
+        margin:-20px 0 20px 0;
+    }
+    .servcont1box h1{
+        font-size:2.7rem;
+        margin-top:30px;
+    }
+    .servcont1 button{
+        width:200px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:750px){
+    .servcont3{
+        flex-direction: column;
+    }
+    .servcont3left{
+        width: 90%;;
+    }
+    .servcont3left{
+        margin:15px 0;
+    }
+}
+@media screen and (max-width:550px){
+    .servcont2main p{
+        width: 90%;
+    }
+    .servcont4box{
+        height: 34px;
+    }
+    .servcont4box h2{
+        font-size:0.6rem;
+    }
+}
+@media screen and (max-width:500px){
+    .servcont4 h1{
+        font-size:1.2rem;
+    }
+}
+@media screen and (max-width:400px){
+    .servcont1box h1{
+        font-size:2rem;
+        margin-top:30px;
+    }
+    .servcont1box img{
+        width:150px;
+        margin-top:-40px;
+    }
+    .servcont2main h1{
+        font-size:1.8rem;
+    }
+    .servcont1 button{
+        font-size:0.6rem;
+        width:150px;
+        height: 30px;
+    }
+    .servcont4box{
+        height: 30px;
+    }
+    .servcont4box h2{
+        font-size:0.5rem;
+    }
+    .servcont4 h1{
+        font-size:1rem;
+    }
 }
