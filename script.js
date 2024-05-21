@@ -34,10 +34,23 @@ let slidebar = document.querySelector(".slidebar");
 
 
 
-// let cont1leftbtn = document.querySelector(".cont1leftbtn");
-// let cont1rightbtn = document.querySelector(".cont1rightbtn");
-// let slide1 = document.querySelector(".slide1");
-// let slide2 = document.querySelector(".slide2");
-// let slide3 = document.querySelector(".slide3");
-// let slide4 = document.querySelector(".slide4");
+let cont1leftbtn = document.querySelector(".cont1leftbtn");
+let cont1rightbtn = document.querySelector(".cont1rightbtn");
+let slide1 = document.querySelector(".slide1");
+let slide2 = document.querySelector(".slide2");
+let slide3 = document.querySelector(".slide3");
+let slide4 = document.querySelector(".slide4");
 
+    let slider = new Array[".slide1",".slide2","slide3","slide4"];
+
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        
+    }
+   
+    
+
+
+// cont1leftbtn.addEventListener("click" , () => {
+
+// })

@@ -51,6 +51,10 @@
     }
     .section3col2box{
         text-align: center;
+
+    }
+    .section3col2box:nth-child(1){
+        margin-top:-40px
     }
     .cont3sec1 h1{
         font-size:rem;
