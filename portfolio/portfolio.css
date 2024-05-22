@@ -40,6 +40,7 @@
     font-family: 'Courier New', Courier, monospace;
 }
 .portcont1content p{
+    margin-top:10px;
     width: 500px;
     text-align: center;
     color:white;
