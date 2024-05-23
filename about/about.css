@@ -387,15 +387,15 @@
     }
     .aboutcont1content h1{
         font-size:4rem;
-        margin-left:10px;
+        margin-left:5px;
     }
     .aboutcont1content h2{
         font-size:1.2rem ;
-        margin-left:10px;
+        margin-left:5px;
     }
     .aboutcont1content p{
         font-size:0.7rem;
         width:300px;
-        margin-left:10px;
+        margin-left:5px;
     }
 }
