@@ -1,6 +1,9 @@
 .nav .logo{
     filter: invert(0%);
 }
+.nav #menubtn{
+    filter: invert(0%);
+}
 .servcont1{
     width: 100%;
     height: 100vh;
@@ -159,14 +162,15 @@
 }
 .servcont3box{
     width: 100%;
-    height: auto;
+    height: 40px;
     background-color: rgba(255, 192, 203, 0.418);
     border-radius: 5px;
+    overflow: hidden;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    transition:2s;
+    transition:0.5s;
 }
 .servcont3box1{
     width: 100%;
@@ -183,18 +187,21 @@
 }
 .servcont3box2{
     width: 90%;
-    display:none;
+    display:block;
     transition:1s;
 }
 
-.servcont3box:hover .servcont3box2{
+/* .servcont3box:hover .servcont3box2{
     display: block;
-}
+} */
 .servcont3box2 p{
     font-size: 0.6rem;
     padding:15px 0 ;
 }
-
+.servcont3box:hover{
+    height: 100px;
+    overflow: none;
+}
 
 
 /* Services Container 4 */
@@ -216,17 +223,22 @@
 .servcont4box{
     background-color: white;
     width: 90%;
+    /* height: auto; */
     height: 40px;
     overflow: hidden;
     margin:20px;
     padding:10px;
     border-radius: 5px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 .servcont4box:hover{
-    height: auto;
+    height: 80px;
+    overflow: none;
 }
+/* .servcont4box:hover{
+    height: auto;
+} */
 .servcont4box h2{
     font-size: 0.8rem;
     color:#800000;
@@ -235,9 +247,24 @@
 .servcont4 p{
     font-size: 0.6rem;
     margin:20px 0px 0px 0px;
+    transition:0.5s;
 }
+/* .servcont4box:hover p{
+    display: block;
+} */
 
-
+@media screen and (max-width:816px) {
+    .servcont3box{
+        height: 49px;
+    }
+    .servcont3box1{
+        padding:6px 10px;
+    }
+    .servcont3box:hover{
+        height: 130px;
+        overflow: none;
+    }
+}
 @media screen and (max-width:800px) {
     .servcont1{
         flex-direction: column;
@@ -272,6 +299,12 @@
         margin:15px 0;
     }
 }
+@media screen and (max-width:608px) {
+    .servcont4box:hover{
+        height: 95px;
+        overflow: none;
+    }
+}
 @media screen and (max-width:550px){
     .servcont2main p{
         width: 90%;
@@ -286,6 +319,12 @@
 @media screen and (max-width:500px){
     .servcont4 h1{
         font-size:1.2rem;
+    }
+}
+@media screen and (max-width:434px) {
+    .servcont4box:hover{
+        height: 105px;
+        overflow: none;
     }
 }
 @media screen and (max-width:400px){

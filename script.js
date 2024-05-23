@@ -41,11 +41,17 @@ let slide2 = document.querySelector(".slide2");
 let slide3 = document.querySelector(".slide3");
 let slide4 = document.querySelector(".slide4");
 
-    let slider = new Array[".slide1",".slide2","slide3","slide4"];
+    let slider = [slide1,slide2,slide3,slide4];
 
-    for (let i = 0; i < array.length; i++) {
-        const element = array[i];
-        
+    for (let i = 0; i < slider.length; i++) {
+        const element = slider[i];
+
+        cont1leftbtn.addEventListener("click", ()=>{
+            element++
+            console.log(element);
+
+        })
+        // console.log(element);
     }
    
     

@@ -6,6 +6,9 @@ body{
     filter: invert(0%);
     transition: 0.5s
 }
+.nav #menubtn{
+    filter: invert(0%);
+}
 nav #menubtn {
     display: none;
     width: 20px;
